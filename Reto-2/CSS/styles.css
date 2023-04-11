@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sono', sans-serif;
+}
+
+body {
+    background-color: slategray;
+}
+
+.head {
+    margin: 2%;
+}
+
+.head h1 {
+    margin: 1% 1% 1% 0;
+    font-size: 50px;
+}
+
+.formulario {
+    width: 100%;
+    padding-bottom: auto;
+}
+
+.form {
+    display:inline-block;
+    width: 70%;
+    height: 60px;
+    margin-left: 2%;
+    margin-bottom: 30px;
+}
+
+.form label {
+    width: 30%;
+    margin-right: 50%;
+    font-size: 25px;
+}
+
+.form input {
+    background-color: #f2f2f2;
+    padding: 0.6% 50% 0.6% 0.6%;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+
+.form button {
+    background-color: green;
+    color: white;
+    padding: 0.6%;
+    font-size: 15px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+.contador {
+    width: 30%;
+    float: left;
+}
+
+.contador p {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.sectionList {
+    width: 50%;
+    display: inline-block;
+    height: 200px;
+}
+
+.sectionList h2 {
+    display: inline-block;
+    width: 10%;
+}
+
+.lista {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.listaIds {
+    display: inline-block;
+    width: 10%;
+}
+
+.listaTareas {
+    display: inline-block;
+    width: 75%;
+    list-style: none;
+    text-align: left;
+}
+
+.listaTareas input[type=checkbox] {
+    scale: 1.5; /* Tamaño del checkbox */
+    float: right; /* Donde se posiciona */
+    margin-top: 7px;  
+    cursor: pointer;
+}
+
+.completas {
+    text-decoration: line-through 0.2px white;
+}
+
+.borrar {
+    font-size: 25px;
+    text-align: left;
+    font-weight: 900;
+    margin-left: 40px;
+    color: red;
+    float: right;
+    width: 10%;
+    text-decoration: none;
+}
+
+.textoYformas {
+    font-size: 25px;
+    margin-right: 20px;
+}
